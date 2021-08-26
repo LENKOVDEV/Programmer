@@ -1,0 +1,126 @@
+*, *:after, *:before{box-sizing: border-box;}
+a{text-decoration: none;}
+ul li{list-style: none}
+
+body{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin: 0;
+}
+.wrapper{
+    min-height: 100vh;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #303030;
+}
+.navigation__block{
+    display: flex;
+    font-size: 14px;
+    padding: 1.25em;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    color: #A3A1A1;
+}
+.navigation__block a{
+    color: inherit;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    transition: color .3s;
+}
+.navigation__block a:hover{
+    color: white;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block__title{
+    text-align: center;
+    padding: 10px 0 5px 0;
+    font-size: 56px;
+    font-weight: bold;
+}
+.block__technologies{
+    text-align: center  ;
+    font-size: 32px;
+}
+.block__more{
+    font-size: 22px;
+    padding: 10px 0 0 0;
+}
+.block__more a{
+    color: #3D8ECB;
+}
+.block__gif{
+    overflow: visible;
+    text-align: center;
+}
+.block__gif img{
+    width: 65%;
+}
+.career{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.career__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.career__text{
+    padding: 60px 0 0 30px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 2em;
+    color: white;
+    font-weight: 300;
+}
+.career__gif{
+    padding-top: 20px;
+    text-align: center;
+    width: 50%;
+}
+.career__gif img{
+    width: 100%;
+}
+.skills{
+    min-height: 70vh;
+}
+.skills__text{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px 0 20px 0;
+}
+.skills__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills__menu{
+    font-size: 20px;
+    color: white;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.skills__column{
+    line-height: 2em;
+    background-color: #3D8ECB;
+    border-radius: 10px;
+    width: 20%;
+    transition: transform .2s;
+}
+.skills__column li{
+    transition: color .2s;
+}
+.skills__column:hover{
+    transform: scale(1.10);
+}
+.skills__column li:hover{
+    color: #c4c4c4;
+}
